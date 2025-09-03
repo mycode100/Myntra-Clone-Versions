@@ -1,0 +1,675 @@
+[
+  {
+    "id": 1,
+    "name": "T-Shirts - Classic Cotton Tee",
+    "brand": "Roadster",
+    "price": 499,
+    "discount": "60% OFF",
+    "description": "Premium cotton t-shirt for daily comfort.",
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=500&auto=format&fit=crop"
+    ],
+    "categoryName": "Men",
+    "subcategory": "T-Shirts",
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "name": "T-Shirts - Graphic Crew Neck",
+    "brand": "H&M",
+    "price": 599,
+    "discount": "50% OFF",
+    "description": "Stylish tee with graphic print for modern look.",
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "images": [
+      "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500&auto=format&fit=crop"
+    ],
+    "categoryName": "Men",
+    "subcategory": "T-Shirts",
+    "rating": 4.2
+  },
+  {
+    "id": 3,
+    "name": "Shirts - Formal Blue Shirt",
+    "brand": "Arrow",
+    "price": 999,
+    "discount": "30% OFF",
+    "description": "Elegant formal shirt for work and meetings.",
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "images": [
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=500&auto=format&fit=crop"
+    ],
+    "categoryName": "Men",
+    "subcategory": "Shirts",
+    "rating": 4.3
+  },
+  {
+    "id": 4,
+    "name": "Shirts - Checked Casual Shirt",
+    "brand": "Highlander",
+    "price": 849,
+    "discount": "45% OFF",
+    "description": "Smart casual checkered shirt for outings.",
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "images": [
+      "https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=500&auto=format&fit=crop"
+    ],
+    "categoryName": "Men",
+    "subcategory": "Shirts",
+    "rating": 4.0
+  },
+  {
+    "id": 5,
+    "name": "Jeans - Slim Fit Blue",
+    "brand": "Levis",
+    "price": 1999,
+    "discount": "40% OFF",
+    "description": "Comfortable slim-fit blue jeans.",
+    "sizes": ["28", "30", "32", "34", "36"],
+    "images": [
+      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=500&auto=format&fit=crop"
+    ],
+    "categoryName": "Men",
+    "subcategory": "Jeans",
+    "rating": 4.6
+  },
+  {
+    "id": 6,
+    "name": "Jeans - Black Ripped",
+    "brand": "Zara",
+    "price": 1799,
+    "discount": "50% OFF",
+    "description": "Stylish black ripped jeans with stretch.",
+    "sizes": ["28", "30", "32", "34", "36"],
+    "images": [
+      "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=500&auto=format&fit=crop"
+    ],
+    "categoryName": "Men",
+    "subcategory": "Jeans",
+    "rating": 4.3
+  },
+  {
+    "id": 7,
+    "name": "Trousers - Slim Fit Chinos",
+    "brand": "UCB",
+    "price": 1399,
+    "discount": "35% OFF",
+    "description": "Versatile chinos suitable for formal or casual.",
+    "sizes": ["28", "30", "32", "34", "36"],
+    "images": [
+      "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1504094587815-0b0dead38c1c?w=500&auto=format&fit=crop"
+    ],
+    "categoryName": "Men",
+    "subcategory": "Trousers",
+    "rating": 4.4
+  },
+  {
+    "id": 8,
+    "name": "Trousers - Jogger Style",
+    "brand": "Puma",
+    "price": 1199,
+    "discount": "40% OFF",
+    "description": "Athleisure jogger trousers with stretch fit.",
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "images": [
+      "https://images.unsplash.com/photo-1519408469771-2586097b5174?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1516016009820-7e0badb37eaa?w=500&auto=format&fit=crop"
+    ],
+    "categoryName": "Men",
+    "subcategory": "Trousers",
+    "rating": 4.1
+  },
+  {
+    "id": 9,
+    "name": "Suits - Black Two Piece",
+    "brand": "Van Heusen",
+    "price": 4999,
+    "discount": "30% OFF",
+    "description": "Formal two-piece suit for events or office.",
+    "sizes": ["38", "40", "42", "44"],
+    "images": [
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?w=500&auto=format&fit=crop"
+    ],
+    "categoryName": "Men",
+    "subcategory": "Suits",
+    "rating": 4.7
+  },
+  {
+    "id": 10,
+    "name": "Suits - Grey Checkered",
+    "brand": "Raymond",
+    "price": 5999,
+    "discount": "25% OFF",
+    "description": "Elegant grey suit for special occasions.",
+    "sizes": ["38", "40", "42", "44"],
+    "images": [
+      "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1548280986-b246c1d44afe?w=500&auto=format&fit=crop"
+    ],
+    "categoryName": "Men",
+    "subcategory": "Suits",
+    "rating": 4.6
+  },
+  {
+    "id": 11,
+    "name": "Activewear - Dry-Fit Tee",
+    "brand": "Nike",
+    "price": 899,
+    "discount": "30% OFF",
+    "description": "Sweat-wicking performance tee.",
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "images": [
+      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&auto=format&fit=crop"
+    ],
+    "categoryName": "Men",
+    "subcategory": "Activewear",
+    "rating": 4.4
+  },
+  {
+    "id": 12,
+    "name": "Activewear - Running Shorts",
+    "brand": "Adidas",
+    "price": 799,
+    "discount": "40% OFF",
+    "description": "Lightweight and breathable running shorts.",
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "images": [
+      "https://images.unsplash.com/photo-1536305030016-17eec78d7bbb?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1516734212186-a9670cf19458?w=500&auto=format&fit=crop"
+    ],
+    "categoryName": "Men",
+    "subcategory": "Activewear",
+    "rating": 4.2
+  },
+  {
+    "id": 13,
+    "name": "Dresses - Summer Floral Dress",
+    "brand": "ONLY",
+    "price": 1299,
+    "discount": "50% OFF",
+    "description": "Light and flowy summer dress.",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1484517186945-55c61e475963?w=500&auto=format&fit=crop"
+    ],
+    "categoryName": "Women",
+    "subcategory": "Dresses",
+    "rating": 4.5
+  },
+  {
+    "id": 14,
+    "name": "Dresses - Fit & Flare Black",
+    "brand": "AND",
+    "price": 1599,
+    "discount": "40% OFF",
+    "description": "Elegant black dress for parties.",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=500&auto=format&fit=crop"
+    ],
+    "categoryName": "Women",
+    "subcategory": "Dresses",
+    "rating": 4.6
+  },
+  {
+    "id": 15,
+    "name": "Tops - Sleeveless Casual",
+    "brand": "H&M",
+    "price": 599,
+    "discount": "45% OFF",
+    "description": "Soft cotton sleeveless top.",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=500&auto=format&fit=crop"
+    ],
+    "categoryName": "Women",
+    "subcategory": "Tops",
+    "rating": 4.3
+  },
+  {
+    "id": 16,
+    "name": "Tops - Lace Detail Top",
+    "brand": "Zara",
+    "price": 799,
+    "discount": "50% OFF",
+    "description": "Elegant top with lace detailing.",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "https://images.unsplash.com/photo-1454023492550-5696f8ff10e1?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1464983953574-0892a716854b?w=500&auto=format&fit=crop"
+    ],
+    "categoryName": "Women",
+    "subcategory": "Tops",
+    "rating": 4.4
+  },
+  {
+    "id": 17,
+    "name": "Ethnic Wear - Printed Kurta Set",
+    "brand": "Biba",
+    "price": 1899,
+    "discount": "45% OFF",
+    "description": "Beautiful kurta set with intricate prints.",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "https://images.unsplash.com/photo-1583391733956-6c78276477e2?w=500&auto=format&fit=crop",
+      "https://rukminim2.flixcart.com/image/612/612/kjuby4w0-0/kurta/q/p/a/l-18awl12961-901015-biba-original-imafz7mfyzmcnykm.jpeg"
+    ],
+    "categoryName": "Women",
+    "subcategory": "Ethnic Wear",
+    "rating": 4.5
+  },
+  {
+    "id": 18,
+    "name": "Ethnic Wear - Anarkali Kurti",
+    "brand": "W for Woman",
+    "price": 2299,
+    "discount": "50% OFF",
+    "description": "Elegant Anarkali with embroidery.",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/kurta/5/x/3/l-pw18ku0536-w-original-imafjf73shwwsaah.jpeg",
+      "https://images.unsplash.com/photo-1541081193200-4184a99449dc?w=500&auto=format&fit=crop"
+    ],
+    "categoryName": "Women",
+    "subcategory": "Ethnic Wear",
+    "rating": 4.6
+  },
+  {
+    "id": 19,
+    "name": "Western Wear - Ripped Denim",
+    "brand": "Only",
+    "price": 1699,
+    "discount": "35% OFF",
+    "description": "Trendy ripped skinny jeans.",
+    "sizes": ["26", "28", "30", "32", "34"],
+    "images": [
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=500&auto=format&fit=crop"
+    ],
+    "categoryName": "Women",
+    "subcategory": "Western Wear",
+    "rating": 4.4
+  },
+  {
+    "id": 20,
+    "name": "Western Wear - Leather Jacket",
+    "brand": "Mango",
+    "price": 3499,
+    "discount": "30% OFF",
+    "description": "Stylish black leather biker jacket.",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "https://images.unsplash.com/photo-1516387938699-a93567ec168e?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1520975954732-35dd22299614?w=500&auto=format&fit=crop"
+    ],
+    "categoryName": "Women",
+    "subcategory": "Western Wear",
+    "rating": 4.7
+  },
+  {
+    "id": 21,
+    "name": "Activewear - Yoga Leggings",
+    "brand": "HRX",
+    "price": 899,
+    "discount": "40% OFF",
+    "description": "High-waisted leggings for workouts.",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1552346154-0a6b8f5723c2?w=500&auto=format&fit=crop"
+    ],
+    "categoryName": "Women",
+    "subcategory": "Activewear",
+    "rating": 4.3
+  },
+  {
+    "id": 22,
+    "name": "Activewear - Sports Bra",
+    "brand": "Adidas",
+    "price": 799,
+    "discount": "50% OFF",
+    "description": "Supportive sports bra for running and training.",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "https://images.unsplash.com/photo-1475189778702-5ec9941484d4?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1465101178521-c1a9136a13b0?w=500&auto=format&fit=crop"
+    ],
+    "categoryName": "Women",
+    "subcategory": "Activewear",
+    "rating": 4.5
+  },
+  {
+    "id": 23,
+    "name": "Boys Clothing - Cartoon T-Shirt",
+    "brand": "Babyhug",
+    "price": 399,
+    "discount": "30% OFF",
+    "description": "Fun printed tee for boys aged 2-8.",
+    "sizes": ["2Y", "3Y", "4Y", "5Y", "6Y", "7Y", "8Y"],
+    "images": [
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=500&auto=format&fit=crop"
+    ],
+    "categoryName": "Kids",
+    "subcategory": "Boys Clothing",
+    "rating": 4.3
+  },
+  {
+    "id": 24,
+    "name": "Boys Clothing - Denim Shorts",
+    "brand": "Kookie Kids",
+    "price": 499,
+    "discount": "40% OFF",
+    "description": "Comfortable denim shorts for boys.",
+    "sizes": ["2Y", "3Y", "4Y", "5Y", "6Y", "7Y"],
+    "images": [
+      "https://images.unsplash.com/photo-1456327102063-fb5054efe647?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1454023492550-5696f8ff10e1?w=500&auto=format&fit=crop"
+    ],
+    "categoryName": "Kids",
+    "subcategory": "Boys Clothing",
+    "rating": 4.2
+  },
+  {
+    "id": 25,
+    "name": "Girls Clothing - Party Frock",
+    "brand": "Little Princess",
+    "price": 999,
+    "discount": "50% OFF",
+    "description": "Beautiful pink frock with sequin design.",
+    "sizes": ["2Y", "3Y", "4Y", "5Y", "6Y"],
+    "images": [
+      "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1516841273335-e39b3788811d?w=500&auto=format&fit=crop"
+    ],
+    "categoryName": "Kids",
+    "subcategory": "Girls Clothing",
+    "rating": 4.6
+  },
+  {
+    "id": 26,
+    "name": "Girls Clothing - Skirt and Top Set",
+    "brand": "CutiePie",
+    "price": 899,
+    "discount": "35% OFF",
+    "description": "Stylish summer outfit for girls.",
+    "sizes": ["2Y", "3Y", "4Y", "5Y", "6Y", "7Y"],
+    "images": [
+      "https://i.etsystatic.com/22152462/r/il/752164/3385182184/il_fullxfull.3385182184_ax1a.jpg",
+      "https://5.imimg.com/data5/SELLER/Default/2021/3/HT/KD/PH/22334292/girls-summer-skirt-top-set.jpg"
+    ],
+    "categoryName": "Kids",
+    "subcategory": "Girls Clothing",
+    "rating": 4.4
+  },
+  {
+    "id": 27,
+    "name": "Infants - Baby Romper",
+    "brand": "FirstCry",
+    "price": 299,
+    "discount": "30% OFF",
+    "description": "Soft cotton romper for newborns.",
+    "sizes": ["0-3M", "3-6M", "6-9M", "9-12M"],
+    "images": [
+      "https://assets.ajio.com/medias/sys_master/root/20220324/YxUt/623b0436aeb26921afdb273d/babyoye_multi_printed_cotton_romper-set_of_3_.jpg",
+      "https://m.media-amazon.com/images/I/61InvoI7NgL._UX569_.jpg"
+    ],
+    "categoryName": "Kids",
+    "subcategory": "Infants",
+    "rating": 4.8
+  },
+  {
+    "id": 28,
+    "name": "Infants - Sleeping Suit Set",
+    "brand": "Mee Mee",
+    "price": 499,
+    "discount": "40% OFF",
+    "description": "Two-piece sleeping suit for infants.",
+    "sizes": ["0-3M", "3-6M", "6-9M"],
+    "images": [
+      "https://www.mothercare.in/medias/sys_master/images/images/h12/h5a/9103524663326/mp000000024378107-2000Wx3000H-230Wx345H.jpg",
+      "https://m.media-amazon.com/images/I/41qFME7RLtL._AC_SR300,300_.jpg"
+    ],
+    "categoryName": "Kids",
+    "subcategory": "Infants",
+    "rating": 4.5
+  },
+  {
+    "id": 29,
+    "name": "Toys - Soft Plush Teddy",
+    "brand": "Toyzone",
+    "price": 699,
+    "discount": "30% OFF",
+    "description": "Cuddly plush teddy bear for kids.",
+    "sizes": ["Medium", "Large", "Extra Large"],
+    "images": [
+      "https://m.media-amazon.com/images/I/81yXQv0UU2L._AC_UL320_.jpg",
+      "https://m.media-amazon.com/images/I/51-r4ZdS2rL.jpg"
+    ],
+    "categoryName": "Kids",
+    "subcategory": "Toys",
+    "rating": 4.9
+  },
+  {
+    "id": 30,
+    "name": "Toys - Educational Puzzle Set",
+    "brand": "Funskool",
+    "price": 499,
+    "discount": "35% OFF",
+    "description": "Learning puzzles for ages 3-6.",
+    "sizes": ["6 pieces", "12 pieces", "24 pieces"],
+    "images": [
+      "https://m.media-amazon.com/images/I/818mM5gYJIL._AC_UL320_.jpg",
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=500&auto=format&fit=crop"
+    ],
+    "categoryName": "Kids",
+    "subcategory": "Toys",
+    "rating": 4.7
+  },
+  {
+    "id": 31,
+    "name": "School Essentials - Kids Backpack",
+    "brand": "Skybags",
+    "price": 899,
+    "discount": "45% OFF",
+    "description": "Cute cartoon backpack for preschool.",
+    "sizes": ["Small", "Medium", "Large"],
+    "images": [
+      "https://m.media-amazon.com/images/I/71a4VV3E7GL._AC_UL320_.jpg",
+      "https://images.unsplash.com/photo-1574717024655-61e8c737e97e?w=500&auto=format&fit=crop"
+    ],
+    "categoryName": "Kids",
+    "subcategory": "School Essentials",
+    "rating": 4.6
+  },
+  {
+    "id": 32,
+    "name": "School Essentials - Lunch Box Set",
+    "brand": "Milton",
+    "price": 349,
+    "discount": "30% OFF",
+    "description": "Colorful lunch box with spoon and water bottle.",
+    "sizes": ["1 Box", "2 Boxes", "Set with Bottle"],
+    "images": [
+      "https://m.media-amazon.com/images/I/71Fq2om91yL.jpg",
+      "https://staranddaisy.in/wp-content/uploads/2024/03/Kids-School-Supplies-Combo-Set-Complete-School-Bag-Pack-for-Children.jpg"
+    ],
+    "categoryName": "Kids",
+    "subcategory": "School Essentials",
+    "rating": 4.4
+  },
+  {
+    "id": 33,
+    "name": "Makeup - Matte Lipstick",
+    "brand": "Maybelline",
+    "price": 499,
+    "discount": "50% OFF",
+    "description": "Long-lasting matte finish lipstick.",
+    "sizes": ["3.5g", "5g", "10g"],
+    "images": [
+      "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=500&auto=format&fit=crop",
+      "https://m.media-amazon.com/images/I/51uR6MLvTYL._SL1500_.jpg"
+    ],
+    "categoryName": "Beauty",
+    "subcategory": "Makeup",
+    "rating": 4.7
+  },
+  {
+    "id": 34,
+    "name": "Makeup - Waterproof Eyeliner",
+    "brand": "Lakme",
+    "price": 299,
+    "discount": "40% OFF",
+    "description": "Smudge-proof bold eyeliner.",
+    "sizes": ["3.5ml", "5ml"],
+    "images": [
+      "https://m.media-amazon.com/images/I/61RHTnUp4TL._SL1500_.jpg",
+      "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=500&auto=format&fit=crop"
+    ],
+    "categoryName": "Beauty",
+    "subcategory": "Makeup",
+    "rating": 4.5
+  },
+  {
+    "id": 35,
+    "name": "Skincare - Vitamin C Serum",
+    "brand": "Plum",
+    "price": 699,
+    "discount": "35% OFF",
+    "description": "Brightens and evens skin tone.",
+    "sizes": ["15ml", "30ml", "50ml"],
+    "images": [
+      "https://m.media-amazon.com/images/I/61d1mHqnK9L._SL1500_.jpg",
+      "https://images.unsplash.com/photo-1598188304738-2974c08b827c?w=500&auto=format&fit=crop"
+    ],
+    "categoryName": "Beauty",
+    "subcategory": "Skincare",
+    "rating": 4.8
+  },
+  {
+    "id": 36,
+    "name": "Skincare - Aloe Vera Gel",
+    "brand": "Patanjali",
+    "price": 149,
+    "discount": "25% OFF",
+    "description": "Soothing gel for skin hydration.",
+    "sizes": ["60ml", "120ml", "250ml"],
+    "images": [
+      "https://m.media-amazon.com/images/I/71zZbeJDebL._SL1500_.jpg",
+      "https://images.unsplash.com/photo-1597393791808-04c180bf1adf?w=500&auto=format&fit=crop"
+    ],
+    "categoryName": "Beauty",
+    "subcategory": "Skincare",
+    "rating": 4.6
+  },
+  {
+    "id": 37,
+    "name": "Haircare - Anti Dandruff Shampoo",
+    "brand": "Head & Shoulders",
+    "price": 299,
+    "discount": "30% OFF",
+    "description": "Removes dandruff & nourishes scalp.",
+    "sizes": ["80ml", "180ml", "340ml"],
+    "images": [
+      "https://m.media-amazon.com/images/I/61kizRZ15uL._SL1000_.jpg",
+      "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=500&auto=format&fit=crop"
+    ],
+    "categoryName": "Beauty",
+    "subcategory": "Haircare",
+    "rating": 4.5
+  },
+  {
+    "id": 38,
+    "name": "Haircare - Hair Oil",
+    "brand": "Parachute",
+    "price": 125,
+    "discount": "20% OFF",
+    "description": "Coconut hair oil for strength and shine.",
+    "sizes": ["90ml", "175ml", "250ml"],
+    "images": [
+      "https://m.media-amazon.com/images/I/518KXm1cPyL._SL1000_.jpg",
+      "https://images.unsplash.com/photo-1444728399417-08d2aa39c253?w=500&auto=format&fit=crop"
+    ],
+    "categoryName": "Beauty",
+    "subcategory": "Haircare",
+    "rating": 4.4
+  },
+  {
+    "id": 39,
+    "name": "Fragrances - Body Mist",
+    "brand": "Engage",
+    "price": 349,
+    "discount": "30% OFF",
+    "description": "Refreshing floral body mist.",
+    "sizes": ["120ml", "200ml"],
+    "images": [
+      "https://m.media-amazon.com/images/I/715JW8vY3lL._SL1500_.jpg",
+      "https://images.unsplash.com/photo-1464983953574-0892a716854b?w=500&auto=format&fit=crop"
+    ],
+    "categoryName": "Beauty",
+    "subcategory": "Fragrances",
+    "rating": 4.3
+  },
+  {
+    "id": 40,
+    "name": "Fragrances - Eau de Parfum",
+    "brand": "Fogg",
+    "price": 499,
+    "discount": "40% OFF",
+    "description": "Long-lasting perfume for daily use.",
+    "sizes": ["50ml", "100ml"],
+    "images": [
+      "https://m.media-amazon.com/images/I/61smWgW6lPL._SL1000_.jpg",
+      "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=500&auto=format&fit=crop"
+    ],
+    "categoryName": "Beauty",
+    "subcategory": "Fragrances",
+    "rating": 4.5
+  },
+  {
+    "id": 41,
+    "name": "Personal Care - Face Wash",
+    "brand": "Himalaya",
+    "price": 199,
+    "discount": "25% OFF",
+    "description": "Neem face wash for acne-free skin.",
+    "sizes": ["50ml", "100ml", "200ml"],
+    "images": [
+      "https://m.media-amazon.com/images/I/819m-7BR5lL._SL1500_.jpg",
+      "https://images.unsplash.com/photo-1598662779094-110c2bad80b5?w=500&auto=format&fit=crop"
+    ],
+    "categoryName": "Beauty",
+    "subcategory": "Personal Care",
+    "rating": 4.7
+  },
+  {
+    "id": 42,
+    "name": "Personal Care - Deodorant",
+    "brand": "Nivea",
+    "price": 225,
+    "discount": "20% OFF",
+    "description": "24hr freshness deodorant roll-on.",
+    "sizes": ["50ml", "100ml"],
+    "images": [
+      "https://m.media-amazon.com/images/I/61heKNhwHML._SL1500_.jpg",
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=500&auto=format&fit=crop"
+    ],
+    "categoryName": "Beauty",
+    "subcategory": "Personal Care",
+    "rating": 4.6
+  }
+
+]

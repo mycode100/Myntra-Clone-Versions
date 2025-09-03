@@ -1,0 +1,7 @@
+frontend : npm install @react-native-async-storage/async-storage
+
+backend : npm install jsonwebtoken express-validator express-rate-limit helmet morgan compression cookie-parser nodemailer
+
+npm install bcrypt(in backend )
+
+npm install express mongoose cors dotenv bcrypt jsonwebtoken multer
