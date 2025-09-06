@@ -1,0 +1,1627 @@
+{
+  "coupons": [
+    {
+      "id": "SUMMER25",
+      "name": "SUMMER25",
+      "description": "Get 25% off on fashion items above ₹1000",
+      "discount": 25,
+      "discountType": "percentage",
+      "threshold": 1000,
+      "maxDiscount": 500,
+      "validFrom": "2025-08-01",
+      "validUpto": "2025-08-31",
+      "paymentMethods": [
+        "UPI",
+        "Card",
+        "Wallet"
+      ],
+      "categories": [
+        "fashion"
+      ],
+      "usageLimit": 1000,
+      "used": 45,
+      "isActive": true,
+      "priority": 1,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 1000,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": null
+      }
+    },
+    {
+      "id": "WELCOME50",
+      "name": "WELCOME50",
+      "description": "₹50 off for new users on first order",
+      "discount": 50,
+      "discountType": "fixed",
+      "threshold": 0,
+      "maxDiscount": null,
+      "validFrom": "2025-08-01",
+      "validUpto": "2025-12-31",
+      "paymentMethods": [
+        "UPI",
+        "Card",
+        "Wallet"
+      ],
+      "categories": [],
+      "usageLimit": 1,
+      "used": 0,
+      "isActive": true,
+      "priority": 1,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 0,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": "new"
+      }
+    },
+    {
+      "id": "FREESHIP",
+      "name": "FREESHIP",
+      "description": "Free shipping on orders above ₹500",
+      "discount": 0,
+      "discountType": "shipping",
+      "threshold": 500,
+      "maxDiscount": null,
+      "validFrom": "2025-08-01",
+      "validUpto": "2025-12-31",
+      "paymentMethods": [
+        "UPI",
+        "Card",
+        "Wallet"
+      ],
+      "categories": [],
+      "usageLimit": 10000,
+      "used": 235,
+      "isActive": true,
+      "priority": 5,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 500,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": null
+      }
+    },
+    {
+      "id": "ELECTRONICS20",
+      "name": "ELECTRONICS20",
+      "description": "20% off on electronics above ₹2000",
+      "discount": 20,
+      "discountType": "percentage",
+      "threshold": 2000,
+      "maxDiscount": 1000,
+      "validFrom": "2025-08-01",
+      "validUpto": "2025-09-30",
+      "paymentMethods": [
+        "Card",
+        "UPI"
+      ],
+      "categories": [
+        "electronics"
+      ],
+      "usageLimit": 500,
+      "used": 78,
+      "isActive": true,
+      "priority": 2,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 2000,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": null
+      }
+    },
+    {
+      "id": "BULK15",
+      "name": "BULK15",
+      "description": "15% off when buying 5 or more items",
+      "discount": 15,
+      "discountType": "percentage",
+      "threshold": 0,
+      "maxDiscount": 750,
+      "validFrom": "2025-08-01",
+      "validUpto": "2025-10-31",
+      "paymentMethods": [
+        "UPI",
+        "Card",
+        "Wallet"
+      ],
+      "categories": [],
+      "usageLimit": 2000,
+      "used": 156,
+      "isActive": true,
+      "priority": 3,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 0,
+          "max": null
+        },
+        "itemCount": {
+          "min": 5,
+          "max": null
+        },
+        "userType": null
+      }
+    },
+    {
+      "id": "FESTIVE30",
+      "name": "FESTIVE30",
+      "description": "30% off during festive season",
+      "discount": 30,
+      "discountType": "percentage",
+      "threshold": 1500,
+      "maxDiscount": 1000,
+      "validFrom": "2025-08-01",
+      "validUpto": "2025-11-30",
+      "paymentMethods": [
+        "UPI",
+        "Card",
+        "Wallet"
+      ],
+      "categories": [],
+      "usageLimit": 1500,
+      "used": 345,
+      "isActive": true,
+      "priority": 1,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 1500,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": null
+      }
+    },
+    {
+      "id": "STUDENT10",
+      "name": "STUDENT10",
+      "description": "10% off for students on all items",
+      "discount": 10,
+      "discountType": "percentage",
+      "threshold": 250,
+      "maxDiscount": 300,
+      "validFrom": "2025-08-01",
+      "validUpto": "2025-12-31",
+      "paymentMethods": [
+        "UPI",
+        "Card"
+      ],
+      "categories": [],
+      "usageLimit": 3000,
+      "used": 123,
+      "isActive": true,
+      "priority": 4,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 250,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": "student"
+      }
+    },
+    {
+      "id": "WEEKEND20",
+      "name": "WEEKEND20",
+      "description": "20% off on weekends",
+      "discount": 20,
+      "discountType": "percentage",
+      "threshold": 800,
+      "maxDiscount": 500,
+      "validFrom": "2025-08-01",
+      "validUpto": "2025-12-31",
+      "paymentMethods": [
+        "UPI",
+        "Card",
+        "Wallet"
+      ],
+      "categories": [],
+      "usageLimit": 1000,
+      "used": 89,
+      "isActive": true,
+      "priority": 3,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 800,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": null,
+        "dayRestriction": [
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    },
+    {
+      "id": "LOYALTY100",
+      "name": "LOYALTY100",
+      "description": "₹100 off for loyal customers",
+      "discount": 100,
+      "discountType": "fixed",
+      "threshold": 500,
+      "maxDiscount": null,
+      "validFrom": "2025-08-01",
+      "validUpto": "2026-01-31",
+      "paymentMethods": [
+        "UPI",
+        "Card",
+        "Wallet"
+      ],
+      "categories": [],
+      "usageLimit": null,
+      "used": 567,
+      "isActive": true,
+      "priority": 2,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 500,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": "loyal"
+      }
+    },
+    {
+      "id": "BLACKFRIDAY50",
+      "name": "BLACKFRIDAY50",
+      "description": "50% off on Black Friday - Electronics only",
+      "discount": 50,
+      "discountType": "percentage",
+      "threshold": 3000,
+      "maxDiscount": 2000,
+      "validFrom": "2025-11-25",
+      "validUpto": "2025-11-30",
+      "paymentMethods": [
+        "Card",
+        "UPI"
+      ],
+      "categories": [
+        "electronics"
+      ],
+      "usageLimit": 100,
+      "used": 0,
+      "isActive": true,
+      "priority": 1,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 3000,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": null
+      }
+    },
+    {
+      "id": "REFER25",
+      "name": "REFER25",
+      "description": "₹25 off for both referrer and referee",
+      "discount": 25,
+      "discountType": "fixed",
+      "threshold": 0,
+      "maxDiscount": null,
+      "validFrom": "2025-08-01",
+      "validUpto": "2025-12-31",
+      "paymentMethods": [
+        "UPI",
+        "Card",
+        "Wallet"
+      ],
+      "categories": [],
+      "usageLimit": 5000,
+      "used": 234,
+      "isActive": true,
+      "priority": 4,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 0,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": "referral"
+      }
+    },
+    {
+      "id": "BIRTHDAY40",
+      "name": "BIRTHDAY40",
+      "description": "₹40 off on your birthday month",
+      "discount": 40,
+      "discountType": "fixed",
+      "threshold": 200,
+      "maxDiscount": null,
+      "validFrom": "2025-08-01",
+      "validUpto": "2025-12-31",
+      "paymentMethods": [
+        "UPI",
+        "Card",
+        "Wallet"
+      ],
+      "categories": [],
+      "usageLimit": 1,
+      "used": 0,
+      "isActive": true,
+      "priority": 3,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 200,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": "birthday"
+      }
+    },
+    {
+      "id": "FLASH15",
+      "name": "FLASH15",
+      "description": "Flash Sale - 15% off for 2 hours only",
+      "discount": 15,
+      "discountType": "percentage",
+      "threshold": 500,
+      "maxDiscount": 200,
+      "validFrom": "2025-08-15",
+      "validUpto": "2025-08-15",
+      "paymentMethods": [
+        "UPI",
+        "Card"
+      ],
+      "categories": [],
+      "usageLimit": 50,
+      "used": 50,
+      "isActive": false,
+      "priority": 1,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 500,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": null,
+        "timeRestriction": {
+          "start": "14:00",
+          "end": "16:00"
+        }
+      }
+    },
+    {
+      "id": "PREMIUM35",
+      "name": "PREMIUM35",
+      "description": "35% off for premium members",
+      "discount": 35,
+      "discountType": "percentage",
+      "threshold": 1000,
+      "maxDiscount": 1500,
+      "validFrom": "2025-08-01",
+      "validUpto": "2025-12-31",
+      "paymentMethods": [
+        "Card",
+        "Wallet"
+      ],
+      "categories": [],
+      "usageLimit": null,
+      "used": 67,
+      "isActive": true,
+      "priority": 1,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 1000,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": "premium"
+      }
+    },
+    {
+      "id": "FASHION18",
+      "name": "FASHION18",
+      "description": "18% off on fashion items above ₹800",
+      "discount": 18,
+      "discountType": "percentage",
+      "threshold": 800,
+      "maxDiscount": 400,
+      "validFrom": "2025-08-01",
+      "validUpto": "2025-09-15",
+      "paymentMethods": [
+        "UPI",
+        "Wallet"
+      ],
+      "categories": [
+        "fashion"
+      ],
+      "usageLimit": 800,
+      "used": 234,
+      "isActive": true,
+      "priority": 3,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 800,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": null
+      }
+    },
+    {
+      "id": "UPI10",
+      "name": "UPI10",
+      "description": "₹10 off on UPI payments",
+      "discount": 10,
+      "discountType": "fixed",
+      "threshold": 100,
+      "maxDiscount": null,
+      "validFrom": "2025-08-01",
+      "validUpto": "2025-12-31",
+      "paymentMethods": [
+        "UPI"
+      ],
+      "categories": [],
+      "usageLimit": 5000,
+      "used": 1234,
+      "isActive": true,
+      "priority": 5,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 100,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": null
+      }
+    },
+    {
+      "id": "BOGO50",
+      "name": "BOGO50",
+      "description": "Buy 1 Get 1 at 50% off on fashion",
+      "discount": 50,
+      "discountType": "bogo",
+      "threshold": 600,
+      "maxDiscount": null,
+      "validFrom": "2025-08-01",
+      "validUpto": "2025-10-31",
+      "paymentMethods": [
+        "UPI",
+        "Card",
+        "Wallet"
+      ],
+      "categories": [
+        "fashion"
+      ],
+      "usageLimit": 200,
+      "used": 45,
+      "isActive": true,
+      "priority": 2,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 600,
+          "max": null
+        },
+        "itemCount": {
+          "min": 2,
+          "max": null
+        },
+        "userType": null
+      }
+    },
+    {
+      "id": "EXPIRED20",
+      "name": "EXPIRED20",
+      "description": "20% off - This coupon has expired",
+      "discount": 20,
+      "discountType": "percentage",
+      "threshold": 500,
+      "maxDiscount": 300,
+      "validFrom": "2025-07-01",
+      "validUpto": "2025-07-31",
+      "paymentMethods": [
+        "UPI",
+        "Card",
+        "Wallet"
+      ],
+      "categories": [],
+      "usageLimit": 1000,
+      "used": 567,
+      "isActive": false,
+      "priority": 3,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 500,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": null
+      }
+    },
+    {
+      "id": "NEWYEAR100",
+      "name": "NEWYEAR100",
+      "description": "₹100 off New Year special offer",
+      "discount": 100,
+      "discountType": "fixed",
+      "threshold": 1000,
+      "maxDiscount": null,
+      "validFrom": "2025-12-25",
+      "validUpto": "2026-01-05",
+      "paymentMethods": [
+        "UPI",
+        "Card",
+        "Wallet"
+      ],
+      "categories": [],
+      "usageLimit": 2000,
+      "used": 0,
+      "isActive": true,
+      "priority": 1,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 1000,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": null
+      }
+    },
+    {
+      "id": "MEGASALE40",
+      "name": "MEGASALE40",
+      "description": "40% off on Mega Sale - All categories",
+      "discount": 40,
+      "discountType": "percentage",
+      "threshold": 2500,
+      "maxDiscount": 1500,
+      "validFrom": "2025-09-01",
+      "validUpto": "2025-09-10",
+      "paymentMethods": [
+        "Card",
+        "UPI"
+      ],
+      "categories": [],
+      "usageLimit": 500,
+      "used": 0,
+      "isActive": true,
+      "priority": 1,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 2500,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": null
+      }
+    },
+    {
+      "id": "FIRSTBUY30",
+      "name": "FIRSTBUY30",
+      "description": "₹30 off on first purchase above ₹300",
+      "discount": 30,
+      "discountType": "fixed",
+      "threshold": 300,
+      "maxDiscount": null,
+      "validFrom": "2025-08-01",
+      "validUpto": "2025-12-31",
+      "paymentMethods": [
+        "UPI",
+        "Card",
+        "Wallet"
+      ],
+      "categories": [],
+      "usageLimit": 1,
+      "used": 0,
+      "isActive": true,
+      "priority": 2,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 300,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": "first_purchase"
+      }
+    },
+    {
+      "id": "MOBILE12",
+      "name": "MOBILE12",
+      "description": "12% off on mobile accessories",
+      "discount": 12,
+      "discountType": "percentage",
+      "threshold": 200,
+      "maxDiscount": 150,
+      "validFrom": "2025-08-01",
+      "validUpto": "2025-10-31",
+      "paymentMethods": [
+        "UPI",
+        "Card"
+      ],
+      "categories": [
+        "electronics",
+        "accessories"
+      ],
+      "usageLimit": 1500,
+      "used": 89,
+      "isActive": true,
+      "priority": 4,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 200,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": null
+      }
+    },
+    {
+      "id": "CASHBACK50",
+      "name": "CASHBACK50",
+      "description": "₹50 cashback on orders above ₹1500",
+      "discount": 50,
+      "discountType": "cashback",
+      "threshold": 1500,
+      "maxDiscount": null,
+      "validFrom": "2025-08-01",
+      "validUpto": "2025-11-30",
+      "paymentMethods": [
+        "UPI",
+        "Wallet"
+      ],
+      "categories": [],
+      "usageLimit": 1000,
+      "used": 234,
+      "isActive": true,
+      "priority": 3,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 1500,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": null
+      }
+    },
+    {
+      "id": "COMBO25",
+      "name": "COMBO25",
+      "description": "25% off on combo purchases (3+ different categories)",
+      "discount": 25,
+      "discountType": "percentage",
+      "threshold": 1200,
+      "maxDiscount": 800,
+      "validFrom": "2025-08-01",
+      "validUpto": "2025-12-31",
+      "paymentMethods": [
+        "UPI",
+        "Card",
+        "Wallet"
+      ],
+      "categories": [],
+      "usageLimit": 300,
+      "used": 67,
+      "isActive": true,
+      "priority": 2,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 1200,
+          "max": null
+        },
+        "itemCount": {
+          "min": 3,
+          "max": null
+        },
+        "userType": null,
+        "categoryCount": {
+          "min": 3
+        }
+      }
+    },
+    {
+      "id": "EARLYBIRD20",
+      "name": "EARLYBIRD20",
+      "description": "20% off for early bird shoppers (6 AM - 9 AM)",
+      "discount": 20,
+      "discountType": "percentage",
+      "threshold": 600,
+      "maxDiscount": 300,
+      "validFrom": "2025-08-01",
+      "validUpto": "2025-12-31",
+      "paymentMethods": [
+        "UPI",
+        "Card",
+        "Wallet"
+      ],
+      "categories": [],
+      "usageLimit": 200,
+      "used": 34,
+      "isActive": true,
+      "priority": 3,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 600,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": null,
+        "timeRestriction": {
+          "start": "06:00",
+          "end": "09:00"
+        }
+      }
+    },
+    {
+      "id": "SOCIAL15",
+      "name": "SOCIAL15",
+      "description": "15% off for social media followers",
+      "discount": 15,
+      "discountType": "percentage",
+      "threshold": 400,
+      "maxDiscount": 200,
+      "validFrom": "2025-08-01",
+      "validUpto": "2025-12-31",
+      "paymentMethods": [
+        "UPI",
+        "Card",
+        "Wallet"
+      ],
+      "categories": [],
+      "usageLimit": 2000,
+      "used": 456,
+      "isActive": true,
+      "priority": 4,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 400,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": "social_follower"
+      }
+    },
+    {
+      "id": "RETURN20",
+      "name": "RETURN20",
+      "description": "20% off for returning customers (after 30 days)",
+      "discount": 20,
+      "discountType": "percentage",
+      "threshold": 800,
+      "maxDiscount": 500,
+      "validFrom": "2025-08-01",
+      "validUpto": "2025-12-31",
+      "paymentMethods": [
+        "UPI",
+        "Card",
+        "Wallet"
+      ],
+      "categories": [],
+      "usageLimit": null,
+      "used": 123,
+      "isActive": true,
+      "priority": 3,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 800,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": "returning",
+        "daysSinceLastOrder": {
+          "min": 30
+        }
+      }
+    },
+    {
+      "id": "HIGHVALUE45",
+      "name": "HIGHVALUE45",
+      "description": "45% off on high-value orders above ₹5000",
+      "discount": 45,
+      "discountType": "percentage",
+      "threshold": 5000,
+      "maxDiscount": 2500,
+      "validFrom": "2025-08-01",
+      "validUpto": "2025-12-31",
+      "paymentMethods": [
+        "Card",
+        "UPI"
+      ],
+      "categories": [],
+      "usageLimit": 50,
+      "used": 12,
+      "isActive": true,
+      "priority": 1,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 5000,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": null
+      }
+    },
+    {
+      "id": "MIDNIGHT30",
+      "name": "MIDNIGHT30",
+      "description": "30% off during midnight hours (12 AM - 3 AM)",
+      "discount": 30,
+      "discountType": "percentage",
+      "threshold": 1000,
+      "maxDiscount": 600,
+      "validFrom": "2025-08-01",
+      "validUpto": "2025-12-31",
+      "paymentMethods": [
+        "UPI",
+        "Card",
+        "Wallet"
+      ],
+      "categories": [],
+      "usageLimit": 100,
+      "used": 23,
+      "isActive": true,
+      "priority": 2,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 1000,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": null,
+        "timeRestriction": {
+          "start": "00:00",
+          "end": "03:00"
+        }
+      }
+    },
+    {
+      "id": "VIP60",
+      "name": "VIP60",
+      "description": "₹60 off for VIP customers",
+      "discount": 60,
+      "discountType": "fixed",
+      "threshold": 300,
+      "maxDiscount": null,
+      "validFrom": "2025-08-01",
+      "validUpto": "2026-01-31",
+      "paymentMethods": [
+        "Card",
+        "UPI",
+        "Wallet"
+      ],
+      "categories": [],
+      "usageLimit": null,
+      "used": 89,
+      "isActive": true,
+      "priority": 1,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 300,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": "vip"
+      }
+    },
+    {
+      "id": "CLEARANCE55",
+      "name": "CLEARANCE55",
+      "description": "55% off on clearance sale items",
+      "discount": 55,
+      "discountType": "percentage",
+      "threshold": 0,
+      "maxDiscount": null,
+      "validFrom": "2025-08-20",
+      "validUpto": "2025-08-31",
+      "paymentMethods": [
+        "UPI",
+        "Card",
+        "Wallet"
+      ],
+      "categories": [
+        "clearance"
+      ],
+      "usageLimit": 1000,
+      "used": 234,
+      "isActive": true,
+      "priority": 1,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 0,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": null
+      }
+    },
+    {
+      "id": "INFLUENCER22",
+      "name": "INFLUENCER22",
+      "description": "22% off via influencer code",
+      "discount": 22,
+      "discountType": "percentage",
+      "threshold": 700,
+      "maxDiscount": 400,
+      "validFrom": "2025-08-01",
+      "validUpto": "2025-11-30",
+      "paymentMethods": [
+        "UPI",
+        "Card",
+        "Wallet"
+      ],
+      "categories": [],
+      "usageLimit": 500,
+      "used": 67,
+      "isActive": true,
+      "priority": 3,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 700,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": "influencer_referred"
+      }
+    },
+    {
+      "id": "ANNIVERSARY75",
+      "name": "ANNIVERSARY75",
+      "description": "₹75 off on anniversary special",
+      "discount": 75,
+      "discountType": "fixed",
+      "threshold": 1250,
+      "maxDiscount": null,
+      "validFrom": "2025-09-15",
+      "validUpto": "2025-09-20",
+      "paymentMethods": [
+        "UPI",
+        "Card",
+        "Wallet"
+      ],
+      "categories": [],
+      "usageLimit": 200,
+      "used": 0,
+      "isActive": true,
+      "priority": 1,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 1250,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": null
+      }
+    },
+    {
+      "id": "AFFILIATE12",
+      "name": "AFFILIATE12",
+      "description": "12% off through affiliate links",
+      "discount": 12,
+      "discountType": "percentage",
+      "threshold": 350,
+      "maxDiscount": 150,
+      "validFrom": "2025-08-01",
+      "validUpto": "2025-12-31",
+      "paymentMethods": [
+        "UPI",
+        "Card",
+        "Wallet"
+      ],
+      "categories": [],
+      "usageLimit": 3000,
+      "used": 567,
+      "isActive": true,
+      "priority": 4,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 350,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": "affiliate"
+      }
+    },
+    {
+      "id": "QUICKBUY28",
+      "name": "QUICKBUY28",
+      "description": "₹28 off on quick checkout (under 5 minutes)",
+      "discount": 28,
+      "discountType": "fixed",
+      "threshold": 400,
+      "maxDiscount": null,
+      "validFrom": "2025-08-01",
+      "validUpto": "2025-12-31",
+      "paymentMethods": [
+        "UPI"
+      ],
+      "categories": [],
+      "usageLimit": 1500,
+      "used": 234,
+      "isActive": true,
+      "priority": 5,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 400,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": null,
+        "checkoutTime": {
+          "max": 300
+        }
+      }
+    },
+    {
+      "id": "REPEAT35",
+      "name": "REPEAT35",
+      "description": "35% off for repeat buyers (5+ orders)",
+      "discount": 35,
+      "discountType": "percentage",
+      "threshold": 1500,
+      "maxDiscount": 1000,
+      "validFrom": "2025-08-01",
+      "validUpto": "2025-12-31",
+      "paymentMethods": [
+        "Card",
+        "UPI",
+        "Wallet"
+      ],
+      "categories": [],
+      "usageLimit": null,
+      "used": 45,
+      "isActive": true,
+      "priority": 2,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 1500,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": "repeat",
+        "minimumOrders": 5
+      }
+    },
+    {
+      "id": "SURVEY20",
+      "name": "SURVEY20",
+      "description": "₹20 off for completing survey",
+      "discount": 20,
+      "discountType": "fixed",
+      "threshold": 150,
+      "maxDiscount": null,
+      "validFrom": "2025-08-01",
+      "validUpto": "2025-12-31",
+      "paymentMethods": [
+        "UPI",
+        "Card",
+        "Wallet"
+      ],
+      "categories": [],
+      "usageLimit": 1000,
+      "used": 123,
+      "isActive": true,
+      "priority": 5,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 150,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": "survey_completed"
+      }
+    },
+    {
+      "id": "INVENTORY40",
+      "name": "INVENTORY40",
+      "description": "40% off on excess inventory clearance",
+      "discount": 40,
+      "discountType": "percentage",
+      "threshold": 800,
+      "maxDiscount": 700,
+      "validFrom": "2025-08-25",
+      "validUpto": "2025-09-05",
+      "paymentMethods": [
+        "UPI",
+        "Card",
+        "Wallet"
+      ],
+      "categories": [
+        "clearance",
+        "excess_inventory"
+      ],
+      "usageLimit": 300,
+      "used": 78,
+      "isActive": true,
+      "priority": 2,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 800,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": null
+      }
+    },
+    {
+      "id": "APP15",
+      "name": "APP15",
+      "description": "15% off on mobile app orders",
+      "discount": 15,
+      "discountType": "percentage",
+      "threshold": 300,
+      "maxDiscount": 200,
+      "validFrom": "2025-08-01",
+      "validUpto": "2025-12-31",
+      "paymentMethods": [
+        "UPI",
+        "Card",
+        "Wallet"
+      ],
+      "categories": [],
+      "usageLimit": 5000,
+      "used": 1234,
+      "isActive": true,
+      "priority": 4,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 300,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": null,
+        "platform": "mobile_app"
+      }
+    },
+    {
+      "id": "MINORDER50",
+      "name": "MINORDER50",
+      "description": "₹50 off on minimum order ₹2000",
+      "discount": 50,
+      "discountType": "fixed",
+      "threshold": 2000,
+      "maxDiscount": null,
+      "validFrom": "2025-08-01",
+      "validUpto": "2025-12-31",
+      "paymentMethods": [
+        "UPI",
+        "Card",
+        "Wallet"
+      ],
+      "categories": [],
+      "usageLimit": 2000,
+      "used": 345,
+      "isActive": true,
+      "priority": 3,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 2000,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": null
+      }
+    },
+    {
+      "id": "SUBSCRIBE25",
+      "name": "SUBSCRIBE25",
+      "description": "₹25 off for newsletter subscribers",
+      "discount": 25,
+      "discountType": "fixed",
+      "threshold": 200,
+      "maxDiscount": null,
+      "validFrom": "2025-08-01",
+      "validUpto": "2025-12-31",
+      "paymentMethods": [
+        "UPI",
+        "Card",
+        "Wallet"
+      ],
+      "categories": [],
+      "usageLimit": 5000,
+      "used": 789,
+      "isActive": true,
+      "priority": 4,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 200,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": "subscriber"
+      }
+    },
+    {
+      "id": "LASTCHANCE60",
+      "name": "LASTCHANCE60",
+      "description": "Last chance - 60% off on selected items",
+      "discount": 60,
+      "discountType": "percentage",
+      "threshold": 1800,
+      "maxDiscount": 1500,
+      "validFrom": "2025-08-28",
+      "validUpto": "2025-08-31",
+      "paymentMethods": [
+        "Card",
+        "UPI"
+      ],
+      "categories": [
+        "last_chance"
+      ],
+      "usageLimit": 100,
+      "used": 23,
+      "isActive": true,
+      "priority": 1,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 1800,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": null
+      }
+    },
+    {
+      "id": "GOLDMEMBER40",
+      "name": "GOLDMEMBER40",
+      "description": "₹40 off for Gold members",
+      "discount": 40,
+      "discountType": "fixed",
+      "threshold": 250,
+      "maxDiscount": null,
+      "validFrom": "2025-08-01",
+      "validUpto": "2026-01-31",
+      "paymentMethods": [
+        "UPI",
+        "Card",
+        "Wallet"
+      ],
+      "categories": [],
+      "usageLimit": null,
+      "used": 156,
+      "isActive": true,
+      "priority": 2,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 250,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": "gold_member"
+      }
+    },
+    {
+      "id": "BUNDLE33",
+      "name": "BUNDLE33",
+      "description": "33% off on product bundles",
+      "discount": 33,
+      "discountType": "percentage",
+      "threshold": 1100,
+      "maxDiscount": 800,
+      "validFrom": "2025-08-01",
+      "validUpto": "2025-11-30",
+      "paymentMethods": [
+        "UPI",
+        "Card",
+        "Wallet"
+      ],
+      "categories": [
+        "bundles"
+      ],
+      "usageLimit": 400,
+      "used": 89,
+      "isActive": true,
+      "priority": 2,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 1100,
+          "max": null
+        },
+        "itemCount": {
+          "min": 2,
+          "max": null
+        },
+        "userType": null
+      }
+    },
+    {
+      "id": "PREORDER27",
+      "name": "PREORDER27",
+      "description": "₹27 off on pre-orders",
+      "discount": 27,
+      "discountType": "fixed",
+      "threshold": 500,
+      "maxDiscount": null,
+      "validFrom": "2025-08-01",
+      "validUpto": "2025-12-31",
+      "paymentMethods": [
+        "Card",
+        "UPI"
+      ],
+      "categories": [
+        "preorder"
+      ],
+      "usageLimit": 200,
+      "used": 34,
+      "isActive": true,
+      "priority": 3,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 500,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": null
+      }
+    },
+    {
+      "id": "FEEDBACK15",
+      "name": "FEEDBACK15",
+      "description": "15% off for leaving product feedback",
+      "discount": 15,
+      "discountType": "percentage",
+      "threshold": 400,
+      "maxDiscount": 100,
+      "validFrom": "2025-08-01",
+      "validUpto": "2025-12-31",
+      "paymentMethods": [
+        "UPI",
+        "Card",
+        "Wallet"
+      ],
+      "categories": [],
+      "usageLimit": 1000,
+      "used": 234,
+      "isActive": true,
+      "priority": 5,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 400,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": "feedback_giver"
+      }
+    },
+    {
+      "id": "WEEKEND50",
+      "name": "WEEKEND50",
+      "description": "₹50 off on weekend shopping",
+      "discount": 50,
+      "discountType": "fixed",
+      "threshold": 750,
+      "maxDiscount": null,
+      "validFrom": "2025-08-01",
+      "validUpto": "2025-12-31",
+      "paymentMethods": [
+        "UPI",
+        "Card",
+        "Wallet"
+      ],
+      "categories": [],
+      "usageLimit": 2000,
+      "used": 456,
+      "isActive": true,
+      "priority": 3,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 750,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": null,
+        "dayRestriction": [
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    },
+    {
+      "id": "EXPIRED50",
+      "name": "EXPIRED50",
+      "description": "₹50 off - Expired coupon",
+      "discount": 50,
+      "discountType": "fixed",
+      "threshold": 500,
+      "maxDiscount": null,
+      "validFrom": "2025-06-01",
+      "validUpto": "2025-06-30",
+      "paymentMethods": [
+        "UPI",
+        "Card",
+        "Wallet"
+      ],
+      "categories": [],
+      "usageLimit": 1000,
+      "used": 234,
+      "isActive": false,
+      "priority": 3,
+      "stackable": false,
+      "conditions": {
+        "cartValue": {
+          "min": 500,
+          "max": null
+        },
+        "itemCount": {
+          "min": 1,
+          "max": null
+        },
+        "userType": null
+      }
+    }
+  ]
+}
